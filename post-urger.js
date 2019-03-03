@@ -42,7 +42,7 @@ class PostUrger {
       
       document.body.style.opacity = opacity;
     })();
-    `
+    `;
   }
 
   get() {
