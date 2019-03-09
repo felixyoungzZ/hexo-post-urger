@@ -21,7 +21,7 @@ class PostUrger {
 
   constructor(daysLeft) {
     this.daysLeft = daysLeft;
-    this.deadline = getDeadlineDay(this.daysLeft, 'D');
+    this.deadline = getDeadlineDay(this.daysLeft);
     this.generate();
   }
 
